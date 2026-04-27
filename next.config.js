@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   outputFileTracingRoot: __dirname,
-  output: 'export',
   images: { unoptimized: true },
   trailingSlash: true,
   productionBrowserSourceMaps: false,

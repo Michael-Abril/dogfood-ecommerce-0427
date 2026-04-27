@@ -2,17 +2,19 @@
   "name": "dogfood-ecommerce-0427",
   "version": "0.1.0",
   "framework": "nextjs",
-  "hosting": "static",
+  "hosting": "dynamic",
   "build": {
     "command": "npm run build",
-    "output": "out"
+    "output": ".next"
   },
   "database": {
     "provider": "varity",
     "collections": [
       "projects",
       "tasks",
-      "team_members"
+      "team_members",
+      "products",
+      "orders"
     ]
   }
 }
